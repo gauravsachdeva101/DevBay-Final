@@ -1,0 +1,22 @@
+/* final */
+html,body{
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background:rgb(233, 237, 236);
+
+}
+.shippingheading{
+  background: rgba(255,119,0,0.9);
+  margin: 0px;
+  padding: 3px;
+}
+#headshipping{
+  margin: 1px 40px;
+}
+.contentshipping{
+  background:white;
+  padding:10px;
+  margin: 20px 110px 20px 110px;
+}

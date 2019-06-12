@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    
+    <title>Shop</title>
+    <link rel="stylesheet" href="shop.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="maindivshop">
+      <div class="headingshop">
+        <h1 id="head">Products</h1>
+        <!-- <strong><p id="headline">This is where.........................</p></strong> -->
+      </div>
+      <div class="contentshop">
+        <div class="upperinshop">
+
+
+                <div class="shopnav">
+                <i class="fas fa-th-large"></i>
+                <p id='gridView'>Grid</p>
+                </div>
+
+
+                  <div class="shopnav">
+                    <i class="fas fa-list"></i>
+                    <p id='listView'>List</p>
+                  </div>
+
+                  <div class='shopperMain'>
+                    <div class="shopper">
+
+                        <p style='font-size:0.9em'>Filter by Price</p>
+                        <form>
+                            <input style='cursor:grab;padding:0px;margin:0px;width:100px'type='range' min='1' max='1001' value='500' alt='price range' id='slider'>
+                        </form>
+                      </div>
+                      <div class='shopperVal'>
+                          <p id='value' style='opacity:0.5;font-size:0.7em;'>Max Price: Rs.500/-</p>
+                      </div>
+                </div>
+
+                  <div style='cursor:pointer;display:flex;'class="shopnavdrop">
+                        <div style='margin:0px;padding:0px;'><p style='margin:0px;padding:0px;margin-right:15px;' class="sortingdropdown">Default Sorting</p></div>
+                        <div style='margin:0px'class="shopnavarrow">
+                          <i style='margin:0px;' class="fas fa-chevron-down"></i>
+                        </div>
+                    <ul class="sorting">
+                        <li>Popularity</li>
+                        <!-- <li>Average Rating</li> -->
+                        <li>Latest</li>
+                        <li>Price: Low to High</li>
+                        <li>Price: High to Low</li>
+                    </ul>
+                  </div>
+
+              </div>
+
+
+
+               <div class='sliderRB'>
+
+                <div class="product">
+                  <div style='width:150px' class='pooja'>
+                      <img style='height:278px;width:150px;'
+                          src="https://www.devotionbay.com/wp-content/uploads/2019/03/Chant-and-Be-Happy.jpg"
+                          alt="Pooja Image">
+                          <div class='label'>
+                              <p><i class="far fa-eye"></i> Quick View</p>
+                          </div>
+                      </div>
+
+                      <div class="productdetails">
+                        <p>Chant and Be Happy || The Power of Mantra Meditation</p>
+                        <p style='color:green;'>₹135.00</p>
+                      </div>
+
+
+
+                  <button type="button" name="button">ADD TO CART</button>
+                  </div>
+
+
+                  <div class="product">
+                  <div style='width:150px' class='twohundo'>
+                      <img style='height:278px;width:150px;'
+                          src="https://www.devotionbay.com/wp-content/uploads/2019/03/The-nectar-of-devotion.jpg"
+                          alt="200mL GangaJal Water">
+                      <div class='label'>
+                          <p><i class="far fa-eye"></i> Quick View</p>
+                      </div>
+                    </div>
+                      <div class="productdetails">
+                        <p>The Nectar of Devotion || The Complete Science of Bhakti-yoga</p>
+                        <p style='color:green;'>₹335.00</p>
+                      </div>
+
+                  <button type="button" name="button">ADD TO CART</button>
+                </div>
+
+
+                <div class="product">
+                  <div style='width:150px' class='fivehundo'>
+                      <img style='height:278px;width:150px;'
+                          src="https://www.devotionbay.com/wp-content/uploads/2019/03/Bhagavad-gita_As_It_Is-original_1972_Macmillan-cover-e1552428857513.jpg"
+                          alt="500mL GangaJal">
+                      <div class='label'>
+                          <p><i class="far fa-eye"></i> Quick View</p>
+                      </div>
+                    </div>
+                      <div class="productdetails">
+                        <p>Bhagavad-Geeta As It Is Original 1972 Macmillan Edition</p>
+                        <p style='color:green;'>₹210.00</p>
+                      </div>
+
+                  <button type="button" name="button">ADD TO CART</button>
+                  </div>
+
+
+                  <div class="product">
+                  <div style='width:150px' class='tenhundo'>
+                      <img style='height:278px;width:150px;'
+                          src="https://www.devotionbay.com/wp-content/uploads/2019/03/Perfection-of-Yoga.jpg"
+                          alt="1000mL GangaJal">
+                      <div class='label'>
+                          <p><i class="far fa-eye"></i> Quick View</p>
+                      </div>
+                    </div>
+                      <div class="productdetails">
+                        <p>The Perfection of Yoga</p>
+                        <p style='color:green;'>₹125.00</p>
+                      </div>
+
+                  <button type="button" name="button">ADD TO CART</button>
+                  </div>
+
+
+                  <div class="product">
+                  <div style='width:150px' class='tenhundo'>
+                      <img style='height:278px;width:150px;'
+                          src="https://www.devotionbay.com/wp-content/uploads/2019/03/A-Second-Chance-e1552419224264.jpg"
+                          alt="1000mL GangaJal">
+                      <div class='label'>
+                          <p><i class="far fa-eye"></i> Quick View</p>
+                      </div>
+                    </div>
+                      <div class="productdetails">
+                        <p>A Second Chance || The Story of a Near-Death Experience</p>
+                        <p style='color:green;'>₹180.00</p>
+                      </div>
+
+                  <button type="button" name="button">ADD TO CART</button>
+              </div>
+
+
+              </div>
+              <div style='margin-top:50px;'class='sliderRB'>
+
+                  <div class="product">
+                    <div style='width:150px' class='pooja'>
+                        <img style='height:278px;width:150px;'
+                            src="https://www.devotionbay.com/wp-content/uploads/2019/03/Chant-and-Be-Happy.jpg"
+                            alt="Pooja Image">
+                        <div class='label'>
+                            <p><i class="far fa-eye"></i> Quick View</p>
+                        </div>
+                      </div>
+                        <div class="productdetails">
+                          <p>Chant and Be Happy || The Power of Mantra Meditation</p>
+                          <p style='color:green;'>₹135.00</p>
+                        </div>
+
+
+
+                    <button type="button" name="button">ADD TO CART</button>
+                    </div>
+
+
+                    <div class="product">
+                    <div style='width:150px' class='twohundo'>
+                        <img style='height:278px;width:150px;'
+                            src="https://www.devotionbay.com/wp-content/uploads/2019/03/The-nectar-of-devotion.jpg"
+                            alt="200mL GangaJal Water">
+                        <div class='label'>
+                            <p><i class="far fa-eye"></i> Quick View</p>
+                        </div>
+                      </div>
+                        <div class="productdetails">
+                          <p>The Nectar of Devotion || The Complete Science of Bhakti-yoga</p>
+                          <p style='color:green;'>₹335.00</p>
+                        </div>
+
+                    <button type="button" name="button">ADD TO CART</button>
+                  </div>
+
+
+                  <div class="product">
+                    <div style='width:150px' class='fivehundo'>
+                        <img style='height:278px;width:150px;'
+                            src="https://www.devotionbay.com/wp-content/uploads/2019/03/Bhagavad-gita_As_It_Is-original_1972_Macmillan-cover-e1552428857513.jpg"
+                            alt="500mL GangaJal">
+                        <div class='label'>
+                            <p><i class="far fa-eye"></i> Quick View</p>
+                        </div>
+                      </div>
+                        <div class="productdetails">
+                          <p>Bhagavad-Geeta As It Is Original 1972 Macmillan Edition</p>
+                          <p style='color:green;'>₹210.00</p>
+                        </div>
+
+                    <button type="button" name="button">ADD TO CART</button>
+                    </div>
+
+
+                    <div class="product">
+                    <div style='width:150px' class='tenhundo'>
+                        <img style='height:278px;width:150px;'
+                            src="https://www.devotionbay.com/wp-content/uploads/2019/03/Perfection-of-Yoga.jpg"
+                            alt="1000mL GangaJal">
+                        <div class='label'>
+                            <p><i class="far fa-eye"></i> Quick View</p>
+                        </div>
+                      </div>
+                        <div class="productdetails">
+                          <p>The Perfection of Yoga</p>
+                          <p style='color:green;'>₹125.00</p>
+                        </div>
+
+                    <button type="button" name="button">ADD TO CART</button>
+                    </div>
+
+
+                    <div class="product">
+                    <div style='width:150px' class='tenhundo'>
+                        <img style='height:278px;width:150px;'
+                            src="https://www.devotionbay.com/wp-content/uploads/2019/03/A-Second-Chance-e1552419224264.jpg"
+                            alt="1000mL GangaJal">
+                        <div class='label'>
+                            <p><i class="far fa-eye"></i> Quick View</p>
+                        </div>
+                      </div>
+                        <div class="productdetails">
+                          <p>A Second Chance || The Story of a Near-Death Experience</p>
+                          <p style='color:green;'>₹180.00</p>
+                        </div>
+
+                    <button type="button" name="button">ADD TO CART</button>
+                </div>
+              </div>
+            
+              <div style='display:none;'class="productslistview">
+                <div class="item">
+                  <div style='width:150px' class='itemimage pooja'>
+                    <img style='height:278px;width:150px;'
+                        src="https://www.devotionbay.com/wp-content/uploads/2019/03/Chant-and-Be-Happy.jpg"
+                        alt="Pooja Image">
+                        <div class='label'>
+                            <p><i class="far fa-eye"></i> Quick View</p>
+                        </div>
+                  </div>
+                  <div class='itemdetails'>
+                    <p><b>Chant and Be Happy || The Power of Mantra Meditation</b></p>
+                    <p style='color:green; '>₹135.00</p>
+                    <p>Near-death experiences (NDEs) are not new phenomena; the Srimad-Bhagavatam, written thousands of years ago, recounts this NDE occurring in the much deeper past:
+
+                     Ajamila, a young, religious student, is drawn astray to a life of debauchery and crime. At the appointed hour of his death, he witnesses an extremely unusual conversation between the agents of death and the agents of the Supreme Person, Vishnu. Ajamila receives a second chance to live, and his life is transformed forever. Near-death experiences (NDEs) are not new phenomena; the Srimad-Bhagavatam, written thousands of years ago, recounts this NDE occurring in the much deeper past.</p>
+                     <button>ADD TO CART</button>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class='itemdetails'>
+                    <p><b>The Nectar of Devotion || The Complete Science of Bhakti-yoga</b></p>
+                    <p style='color:green;'>₹335.00</p>
+                    <p>Beyond Illusion And Doubt is a compilation of conversations between Srila Prabhupada and some of his disciples, comparing Vedic wisdom with Western philosophy.
+                    Despite studying the fundamental nature of knowledge, reality, and existence for thousands of years, Western philosophers have not been able to explain the self, the cosmos, and our place in it as comprehensively as the Vedicwritings of ancient India, which are known as apaurusheya, “not of human origin.”
+                    “To err is human” applies equally to the layman and the philosopher. Most philosophers tend to arrive at a different set of answers to life’s fundamental questions. This constant overhauling of philosophies throughout Western history can make the study of philosophy frustrating, especially for anyone seeking practical answers to life’s important questions.
+                     Tweet This Product</p>
+                     <button>ADD TO CART</button>
+                  </div>
+                  <div style='width:150px' class='itemimage pooja'>
+                    <img style='height:278px;width:150px;'
+                        src="https://www.devotionbay.com/wp-content/uploads/2019/03/Bhagavad-gita_As_It_Is-original_1972_Macmillan-cover-e1552428857513.jpg"
+                        alt="500mL GangaJal">
+                          <div class='label'>
+                            <p><i class="far fa-eye"></i> Quick View</p>
+                        </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div style='width:150px' class='itemimage pooja'>
+                    <img style='height:278px;width:150px;'
+                        src="https://www.devotionbay.com/wp-content/uploads/2019/03/Chant-and-Be-Happy.jpg"
+                        alt="Pooja Image">
+                        <div class='label'>
+                            <p><i class="far fa-eye"></i> Quick View</p>
+                        </div>
+                  </div>
+                  <div class='itemdetails'>
+                    <p><b>Chant and Be Happy || The Power of Mantra Meditation</b></p>
+                    <p style='color:green; '>₹135.00</p>
+                    <p>Near-death experiences (NDEs) are not new phenomena; the Srimad-Bhagavatam, written thousands of years ago, recounts this NDE occurring in the much deeper past:
+
+                     Ajamila, a young, religious student, is drawn astray to a life of debauchery and crime. At the appointed hour of his death, he witnesses an extremely unusual conversation between the agents of death and the agents of the Supreme Person, Vishnu. Ajamila receives a second chance to live, and his life is transformed forever. Near-death experiences (NDEs) are not new phenomena; the Srimad-Bhagavatam, written thousands of years ago, recounts this NDE occurring in the much deeper past.</p>
+                     <button>ADD TO CART</button>
+
+                  </div>
+                </div>
+                <div class="item">
+                  <div class='itemdetails'>
+                    <p><b>The Nectar of Devotion || The Complete Science of Bhakti-yoga</b></p>
+                    <p style='color:green;'>₹335.00</p>
+                    <p>Beyond Illusion And Doubt is a compilation of conversations between Srila Prabhupada and some of his disciples, comparing Vedic wisdom with Western philosophy.
+                    Despite studying the fundamental nature of knowledge, reality, and existence for thousands of years, Western philosophers have not been able to explain the self, the cosmos, and our place in it as comprehensively as the Vedicwritings of ancient India, which are known as apaurusheya, “not of human origin.”
+                    “To err is human” applies equally to the layman and the philosopher. Most philosophers tend to arrive at a different set of answers to life’s fundamental questions. This constant overhauling of philosophies throughout Western history can make the study of philosophy frustrating, especially for anyone seeking practical answers to life’s important questions.
+                     Tweet This Product</p>
+                     <button>ADD TO CART</button>
+                  </div>
+                  <div style='width:150px' class='itemimage pooja'>
+                    <img style='height:278px;width:150px;'
+                        src="https://www.devotionbay.com/wp-content/uploads/2019/03/Bhagavad-gita_As_It_Is-original_1972_Macmillan-cover-e1552428857513.jpg"
+                        alt="500mL GangaJal">
+                          <div class='label'>
+                            <p><i class="far fa-eye"></i> Quick View</p>
+                        </div>
+                  </div>
+                </div>
+              </div>
+
+
+                <div class="shopnavlast">
+
+
+                  <p><a href="#"> 1 </a>/<a href="#"> 2 </a>/<a href="#">Next</a>
+                  </p>
+                </div>
+
+    </div>
+
+    </div>
+    <script src='shop.js'></script>
+  </body>
+</html>

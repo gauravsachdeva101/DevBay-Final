@@ -1,0 +1,142 @@
+html,body{
+  width:100%;
+  height: 100%;
+  padding:0px;
+  margin: 0px;
+  background:rgb(233, 237, 236);
+  
+  font-family: 'Montserrat', sans-serif;
+  }
+.contentofcheckout{
+  margin:0px;
+  padding:50px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.headingofcheckout{
+  margin: 0px;
+  padding: 3px;
+  background: rgba(255,119,0,0.9);
+}
+
+#heading{
+  margin: 1px 40px;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  background:rgb(233, 237, 236);
+
+  margin: 0px;
+  width: 100%;
+}
+.billingdetails
+{
+background:white;
+padding:10px;
+}
+.paymentdeatils
+{
+background:white;
+margin:0px 50px;
+padding:10px;
+}
+.billingdetails input{
+width: 70%;
+height: 30px;
+margin: auto;
+}
+.billingdetails p{
+margin-bottom: 5px;
+}
+select{
+  height: 30px;
+  width:auto;
+}
+#code{
+width: 50%;
+height: 30px;
+margin: auto;
+}
+.check input{
+  height: 15px;
+  width: 15px;
+  margin-left: 10px;
+
+}
+.productprice{
+  border: 2px solid black;
+}
+.heads{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  font-weight: bold;
+  border-bottom:1px solid grey;
+}
+.heads div{
+  /* border:1px solid grey; */
+}
+.total{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content:space-around;
+}
+.right{
+width:75%;
+}
+.left{
+width:25%;
+font-weight: bold;
+}
+.right div{
+margin:15px;
+margin-left:auto;
+text-align:left;
+margin-right: 0px;
+padding: 0px;
+}
+.left div{
+margin: 15px;
+padding: 0px;
+}
+
+#t{
+  float: right;
+  align-items: flex-end;
+  text-align: right;
+}
+.selection{
+  display: flex;
+  flex-flow: row nowrap;
+}
+button{
+  display:inline-block;
+  border-radius: 0px;
+  background: rgba(255,119,0,0.9);
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  border: 0px;
+  margin-top:auto;
+}
+#tnc
+{
+display:none;
+width:90%;
+margin:10px;
+padding:5px;
+height:150px;
+overflow:scroll;
+line-height:30px;
+}
+#tac
+{
+cursor:pointer;
+color:purple;
+text-decoration: underline;
+}
