@@ -1,0 +1,43 @@
+<!-- FINAL -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr"> 
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contactus.css">
+    <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+  </head>
+  <body>
+    <div class="maindiv">
+      <div class="headingcontactus">
+        <h1 id="headcontactus">Contact Us</h1>
+      </div>
+       <div class="contentcontactus">
+        <form class="contactusform" action="index.html" method="post">
+           <div class="flexcontents">
+             <div class="flex1">
+               <strong>Name:</strong>
+               <input type="text" name="name" value=""placeholder="Enter your name here" required style="align-items: flex-end;"><br>
+             </div>
+             <div class="flex2">
+               <strong>Contact No:</strong>
+               <input type="text" name="contact" value="" placeholder="Enter your number here" required><br>
+             </div>
+             <div class="flex3">
+               <strong>Email: </strong>
+               <input type="email" name="email" value="" placeholder="Enter your email here" required><br>
+             </div>
+             <div class="flex4">
+               <strong>Subject:</strong>
+              <input type="text" name="subject" value="">
+             </div>
+           </div>
+          <strong>Your Message:</strong><br>
+          <textarea name="message" rows="8" cols="80"></textarea>
+          <br>
+          <button type="button" name="button">SEND</button>
+        </form>
+       </div>
+    </div>
+  </body>
+</html>

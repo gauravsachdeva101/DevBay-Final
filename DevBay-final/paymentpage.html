@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="paymentpage.css">
+    <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+  </head>
+  <body>
+    <div class="headingofcheckout">
+      <h1 id='heading'>Checkout</h1>
+    </div>
+    <div class="contentofcheckout">
+      <div class="billingdetails">
+        <h2>Billing Details</h2>
+        <p>Full Name </p>
+        <input type="text" name="name" placeholder=" Enter your full name here">
+        <p>Mobile Number </p>
+        <input type="text" name="number" placeholder=" Enter your mobile number here">
+        <p>Street address</p>
+        <input type="text" name="address1" placeholder=" Enter your house number/flat number/floor/building"><br><br>
+
+        <input type="text" name="address2" placeholder=" Enter your Colony/Street/Locality">
+        <p>Landmark</p>
+        <input type="text" name="landmark" placeholder=" Eg. Behind PVR Cinema etc.">
+        <p>City/Town</p>
+        <input type="text" name="city" placeholder=" Enter your city here">
+        <div class='selection'>
+          <div>
+        <p>State</p>
+        <select name="stateslist">
+         <option value="">Select State</option>
+         <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+         <option value="Andhra Pradesh">Andhra Pradesh</option>
+         <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+         <option value="Assam">Assam</option>
+         <option value="Bihar">Bihar</option>
+         <option value="Chandigarh">Chandigarh</option>
+         <option value="Chhattisgarh">Chhattisgarh</option>
+         <option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
+         <option value="Daman and Diu">Daman and Diu</option>
+         <option value="Delhi">Delhi</option>
+         <option value="Goa">Goa</option>
+         <option value="Gujarat">Gujarat</option>
+         <option value="Haryana">Haryana</option>
+         <option value="Himachal Pradesh">Himachal Pradesh</option>
+         <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+         <option value="Jharkhand">Jharkhand</option>
+         <option value="Karnataka">Karnataka</option>
+         <option value="Kerala">Kerala</option>
+         <option value="Lakshadweep">Lakshadweep</option>
+         <option value="Madhya Pradesh">Madhya Pradesh</option>
+         <option value="Maharashtra">Maharashtra</option>
+         <option value="Manipur">Manipur</option>
+         <option value="Meghalaya">Meghalaya</option>
+         <option value="Mizoram">Mizoram</option>
+         <option value="Nagaland">Nagaland</option>
+         <option value="Orissa">Orissa</option>
+         <option value="Pondicherry">Pondicherry</option>
+         <option value="Punjab">Punjab</option>
+         <option value="Rajasthan">Rajasthan</option>
+         <option value="Sikkim">Sikkim</option>
+         <option value="Tamil Nadu">Tamil Nadu</option>
+         <option value="Tripura">Tripura</option>
+         <option value="Uttaranchal">Uttaranchal</option>
+         <option value="Uttar Pradesh">Uttar Pradesh</option>
+         <option value="West Bengal">West Bengal</option>
+         </select></div>
+         <div style='padding-left:25px;'>
+         <p>Country/Region</p> <select class="" name="country">
+           <option value="">India</option>
+         </select>
+         </div></div>
+         <p>Postal Code/ZIP</p>
+         <input type="text" name="pincode" placeholder=" Enter your postal code here">
+         <p>Email address </p>
+         <input type="email" name="email" placeholder=" Enter your email here ">
+         <div class='check'><p>Different shipping address?<input type="checkbox" name="shippingaddress" id="myCheck" onclick="myFunction()">
+          </p></div>
+          <div class="" style='display:none' id='text'>
+
+
+           <p>Full Name </p>
+           <input type="text" name="name" placeholder=" Enter your full name here">
+           <p>Mobile Number </p>
+           <input type="text" name="number" placeholder=" Enter your mobile number here">
+           <p>Street Address</p>
+           <input type="text" name="address1" placeholder=" Enter your house number/flat number/floor/building">
+           <input type="text" name="address2" placeholder=" Enter your Colony/Street/Locality">
+           <p>Landmark</p>
+           <input type="text" name="landmark" placeholder=" Eg. Behind PVR Cinema etc.">
+           <p>City/Town</p>
+           <input type="text" name="city" placeholder=" Enter your city here">
+           <p>State</p>
+           <select name="stateslist">
+            <option value="">Select State</option>
+            <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+            <option value="Assam">Assam</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Chandigarh">Chandigarh</option>
+            <option value="Chhattisgarh">Chhattisgarh</option>
+            <option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
+            <option value="Daman and Diu">Daman and Diu</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Goa">Goa</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Himachal Pradesh">Himachal Pradesh</option>
+            <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Lakshadweep">Lakshadweep</option>
+            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Manipur">Manipur</option> 
+            <option value="Meghalaya">Meghalaya</option>
+            <option value="Mizoram">Mizoram</option>
+            <option value="Nagaland">Nagaland</option>
+            <option value="Orissa">Orissa</option>
+            <option value="Pondicherry">Pondicherry</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Sikkim">Sikkim</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Tripura">Tripura</option>
+            <option value="Uttaranchal">Uttaranchal</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="West Bengal">West Bengal</option>
+            </select>
+            <p>Postal Code/ZIP</p>
+            <input type="text" name="pincode" placeholder=" Enter your postal code here">
+    </div>
+
+         <p>Order notes(optional)</p>
+         <textarea name="notes" rows="9" cols="80" placeholder=" Notes about order eg special instructions for delivery" ></textarea>
+        </div>
+      <div class="paymentdeatils">
+        <h2>Your Order</h2>
+        <div class="productprice">
+
+          <div class="heads">
+            <div><p>Product</p></div>
+            <div id='t'><p>Total</p></div>
+          </div>
+
+          <div class='total'>
+            <div class="left">
+              <div>Product 1</div>
+              <div>Product 2</div>
+              <div>Subtotal</div>
+              <div>Shipping</div>
+              <div>Promo code</div>
+              <div>Total</div>
+            </div>
+           <div class="right">
+             <div>Product1 Price</div>
+             <div>Product2 Price</div>
+             <div>Subtotal charges</div>
+             <div>Shipping Charges</div>
+             <div><input id='code'type="text" name="promocode" value="" placeholder="Enter promocode here"><button type="button" name="button">APPLY</button></div>
+            <div>Total charges</div>
+           </div>
+           </div>
+
+        </div>
+        <div class="paymentmethod">
+          <p><strong>Payment Method:</strong> </p>
+          <input type="radio" name="pay" value="">Credit Card/Debit Card/Net Banking
+          <p style='margin-left:15px;opacity:0.5;font-size:0.75rem;'>Pay securely by Credit or Debit card or Internet Banking through Razorpay.</p>
+          <input type="radio" name="pay" value="">Pay on Delivery
+        </div>
+        <p>Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our <a href="privacypolicy.html">privacy policy</a>.</p>
+        <p> <input type="checkbox" name="agree" value=""> I have read and agree to the website <span id='tac'><a >terms and conditions</a></span></p>
+        <p id='tnc'>Who we are
+            Our website address is: https://devotionbay.com.
+            
+            What personal data we collect and why we collect it
+            Comments
+            When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor’s IP address and browser user agent string to help spam detection.
+            
+            An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it. The Gravatar service privacy policy is available here: https://automattic.com/privacy/. After approval of your comment, your profile picture is visible to the public in the context of your comment.
+            
+            Media
+            If you upload images to the website, you should avoid uploading images with embedded location data (EXIF GPS) included. Visitors to the website can download and extract any location data from images on the website.
+            
+            Contact forms
+            Cookies
+            If you leave a comment on our site you may opt-in to saving your name, email address and website in cookies. These are for your convenience so that you do not have to fill in your details again when you leave another comment. These cookies will last for one year.
+            
+            If you have an account and you log in to this site, we will set a temporary cookie to determine if your browser accepts cookies. This cookie contains no personal data and is discarded when you close your browser.
+            
+            When you log in, we will also set up several cookies to save your login information and your screen display choices. Login cookies last for two days, and screen options cookies last for a year. If you select “Remember Me”, your login will persist for two weeks. If you log out of your account, the login cookies will be removed.
+            
+            If you edit or publish an article, an additional cookie will be saved in your browser. This cookie includes no personal data and simply indicates the post ID of the article you just edited. It expires after 1 day.
+            
+            Embedded content from other websites
+            Articles on this site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website.
+            
+            These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged in to that website.
+            
+            Analytics
+            Who we share your data with
+            How long we retain your data
+            If you leave a comment, the comment and its metadata are retained indefinitely. This is so we can recognize and approve any follow-up comments automatically instead of holding them in a moderation queue.
+            
+            For users that register on our website (if any), we also store the personal information they provide in their user profile. All users can see, edit, or delete their personal information at any time (except they cannot change their username). Website administrators can also see and edit that information.
+            
+            What rights you have over your data
+            If you have an account on this site, or have left comments, you can request to receive an exported file of the personal data we hold about you, including any data you have provided to us. You can also request that we erase any personal data we hold about you. This does not include any data we are obliged to keep for administrative, legal, or security purposes.
+            
+            Where we send your data
+            Visitor comments may be checked through an automated spam detection service.
+            
+            Your contact information
+            Additional information
+            How we protect your data
+            What data breach procedures we have in place
+            What third parties we receive data from
+            What automated decision making and/or profiling we do with user data
+            Industry regulatory disclosure requirements</p>
+        <button type="button" name="button">Place order</button>
+      </div>
+    </div>
+      <script src="paymentpage.js"></script>
+  </body>
+</html>

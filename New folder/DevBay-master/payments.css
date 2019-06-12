@@ -1,0 +1,25 @@
+/* FINAL */
+html,body{
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background:rgb(233, 237, 236);
+
+}
+li{
+  font-weight: bold;
+}
+.paymentheading{
+  background: rgba(255,119,0,0.9);
+  margin: 0px;
+  padding: 3px;
+}
+.paymentcontent{
+  margin: 40px 110px 40px 110px;
+  background:white;
+  padding:10px;
+}
+#headpayment{
+  margin: 1px 40px;
+}

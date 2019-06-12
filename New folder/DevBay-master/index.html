@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="DevBay.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+    <!-- NAVBAR STARTS HERE -->
+    <div class='main-nav'>
+        <ul class='upper-nav'>
+            <li id='splLogo'onClick='window.location.href="index.html"'><img src="https://www.devotionbay.com/wp-content/uploads/2019/01/Recess-1.png" alt="Main DevBay Logo"
+                    style='height:37.4px;width:118px;'></li>
+            <li style='cursor:pointer;'>
+                <div class='searchBar'><input style='width:90%;float:left;border:none;height:inherit;margin:0px;padding:0px 10px;'
+                        placeholder='Search for products here' type="textarea"></input><i style='position:sticky;height:inherit;width:15%;'
+                        class="fas fa-search"></i></div>
+            </li>
+            <li style='cursor:pointer;'onClick='window.location.href="index.html"'><a>HOME</a></li>
+            <li  style='cursor:pointer;'onClick='window.location.href="shop.html"'><a>SHOP</a>
+                <ul class='lower-nav' style='transition: all 500ms;'>
+                    <li><a>Religious Books</a></li>
+                    <li><a>Pooja Kit</a></li>
+                    <li><a>Gangajal</a></li>
+                </ul>
+            </li>
+            <li style='cursor:pointer;' onClick='window.location.href="offer.html"'><a>OFFERS</a></li>
+            <li style='cursor:pointer;'><a>MY ACCOUNT</a></li>
+            <li style='width:100px;cursor:pointer;'onClick='window.location.href="cart.html"'>
+                <i class="fas fa-shopping-bag"style='margin:0px 50px 0px 0px;'></i>
+                <ul class='lower-nav-cart' style='transition: all 500ms;'>
+                    <li><a>One</a></li>
+                    <li><a>Two</a></li>
+                    <li><a>Three</a></li>
+                    <li><a>Checkout <i style='color:white;'class="fas fa-shopping-cart"></i></a> </li>
+                </ul>
+                
+            </li>
+            <li class='miniLines'>
+                <div class='lines'>
+                    <a></a>
+                    <a></a>
+                    <a></a>
+                </div>
+            </li>
+            
+        </ul>
+        <div class='respNav'>
+
+
+                <ul class='upper-nav-resp'>
+                    <li style='cursor:pointer;'>
+                        <div class='searchBar'><input
+                                style='float:left;border:none;margin-right:0px;margin-left:5px;height:20px;width:100%;height:25px;margin-right:40px;'
+                                placeholder='Search for products here' type="textarea"><i style='margin-right:5px;float:right;'
+                                class="fas fa-search"></i></div>
+                    </li>
+                    <li style='cursor:pointer;'onClick='window.location.href="index.html"'><a>HOME</a></li>
+                    <li  style='cursor:pointer;'onClick='window.location.href="shop.html"'><a>SHOP</a>
+                        <ul class='lower-nav'>
+                            <li><a>Religious Books</a></li>
+                            <li><a>Pooja Kit</a></li>
+                            <li><a>Gangajal</a></li>
+                        </ul>
+                    </li>
+                    <li style='cursor:pointer;' onClick='window.location.href="offer.html"'><a>OFFERS</a></li>
+                    <li style='cursor:pointer;' id= 'myAcc'><a>MY ACCOUNT</a></li>
+                    <li style='cursor:pointer;'onClick='window.location.href="cart.html"'><i class="fas fa-shopping-bag"></i></li>
+           
+           
+            </div>
+    </div>
+
+    <!-- NAVBAR ENDS HERE -->
+    <!--OVERLAYYY-->
+    <div class="maindivaccount">
+
+            <div class="accountheading">
+              <h1 id="headaccount">My Account</h1>
+              <h1 id='cross'><i class="fas fa-times"></i></h1>
+            </div>
+      
+            <div class="contentaccount">
+              <div class="uppercontent">
+                <br>
+                <div class='interactBar'>
+      
+                    <h1 id='login'>Login</h1>
+                    <div class='circle'style='transform:rotateZ(180deg);'><i class="fas fa-angle-double-right"></i></div>
+                    <h1 id='register'>Register</h1>
+                </div>
+              </div>
+      
+              <div style='display:block;'class="middlecontent">
+                <form class="loginform" action="index.html" method="post">
+                    <br><strong>Username or Email Address:</strong><br>
+                    <input class="inputtag"type="email" name="username" value="">
+                    <br><br>
+                    <strong>Password:</strong><br>
+                    <input class="inputtag"type="password" name="password" value="">
+                    <br><br>
+
+                    <button type="button" name="button">LOG IN</button>
+                    <br></br>
+                    <input type="checkbox" name="remember" value="">
+                    <label for="remember">Remember</label>
+                    <a href="#" id="passwordid">Forgot Password?</a>
+                </form>
+                </div>
+      
+               <div style='display:none;'class="lowercontent">
+                <form class="registerform" action="index.html" method="post">
+                  <br><strong>Email Address: </strong><br>
+                  <input class="inputtag"type="text" name="" value="">
+                  <br><br>
+                  <strong>Password:</strong><br>
+                  <input class="inputtag" type="password" name="" value="">
+                  <br><br>
+                  <strong>Confirm Password:</strong><br>
+                  <input class="inputtag" type="password" name="" value="">
+                  <br>
+                  <p>Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <a href="#">privacy policy.</a></p>
+                  <button type="button" name="button">REGISTER</button>
+                </form>
+             </div>
+      
+            </div>
+      
+          </div>
+    <!-- <div> -->
+        
+        <div class='Main'>
+
+                <div class='imageAnimation'>
+                    
+                </div>
+            <!-- <div class='jumbodisp'>
+                
+            </div>
+            <div class='leftSlid'>
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class='rightSlid'>
+                    <i class="fas fa-chevron-right"></i>
+                </div> -->
+        
+        
+        <div class='poojaganga'>
+            <div class='headerPG'>
+                <h1 onClick="window.location.href='shop.html'">Pooja Kit and Ganga Jal</h1>
+            </div>
+
+            <div class='bigWrapper'>
+                    <div class='lbutton'>
+                        <!-- <p stye='margin:0px;padding:0px;display:inline;'>&lt;</p> -->
+                        <i class="fas fa-chevron-left"></i>
+                    </div>
+                    <div class='sliderPG'>
+                
+                      
+                            <div class='items'>
+                                    <div style='width:280px;height:200px;' class='pooja'>
+                                        <img style='height:200px;width:280px;'
+                                            src="https://www.devotionbay.com/wp-content/uploads/2019/04/packetpoojakit.jpg"
+                                            alt="Pooja Image">
+                                        <div class='label'>
+                                            <p><i class="far fa-eye"></i> Quick View</p>
+                                        </div>
+                                    </div>
+                                    <p class='productname'>Pooja Kit|| Premium Quality Products</p>
+                                    <p class='price'>Rs250</p>
+                                   </div>
+                    
+                    
+            
+                           
+                                <div class='items'>
+                                        <div style='width:280px;height:200px;' class='twohundo'>
+                                            <img style='height:200px;width:280px;'
+                                                src="https://www.devotionbay.com/wp-content/uploads/2019/01/200-ml.jpg"
+                                                alt="200mL GangaJal Water">
+                                            <div class='label'>
+                                                    <p><i class="far fa-eye"></i> Quick View</p>
+                                            </div>
+                                        </div>
+                                        <p class='productname'>Prayag Ganga Jal || 200ml</p>
+                                        <p class='price'>Rs199</p>
+                                    </div>
+                            
+                           
+            
+            
+                        
+                                <div class='items'> 
+                                        <div style='width:280px;height:200px;' class='fivehundo'>
+                                            <img style='height:200px;width:280px;'
+                                                src="https://www.devotionbay.com/wp-content/uploads/2019/01/4.jpg" alt="500mL GangaJal">
+                                            <div class='label'>
+                                                    <p><i class="far fa-eye"></i> Quick View</p>
+                                            </div>
+                                        </div>
+                                        <p class='productname'>Prayag Ganga Jal || 500ml</p>
+                                        <p class='price'>Rs299</p>
+                                    </div>
+                            
+                           
+            
+                        
+                        
+                                <div class='items'>
+                                        <div style='width:280px;height:200px;' class='tenhundo'>
+                                            <img style='height:200px;width:280px;'
+                                                src="https://www.devotionbay.com/wp-content/uploads/2019/01/1.jpg" alt="1000mL GangaJal">
+                                            <div class='label'>
+                                                    <p><i class="far fa-eye"></i> Quick View</p>
+                                            </div>
+                                        </div>
+                                    
+                                    <p class='productname'>Prayag Ganga Jal || 1l</p>
+                                        <p class='price'>Rs399</p>
+                                    </div>
+                            
+                        
+            
+
+
+        </div>
+                    <div class='rbutton'>
+                        <!-- <p stye='margin:0px;padding:0px;display:inline;'>&gt;</p> -->
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+
+            </div>
+
+            
+        </div>
+
+        <div class='relbooks'>
+            <div class='headerRB'>
+                <h1 onClick="window.location.href='shop.html'">Religious Books</h1>
+            </div>
+
+
+        <div class='bigWrapper'>
+
+            <div class='lbuttonTwo'>
+                    <!-- <p stye='margin:0px;padding:0px;display:inline;'>&gt;</p> -->
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class='sliderRB'>
+
+
+                        <div class='itemsTwo'>
+                        <div style='width:200px' class='pooja'>
+                            <img style='height:300px;width:200px;'
+                                src="https://www.devotionbay.com/wp-content/uploads/2019/03/Chant-and-Be-Happy.jpg"
+                                alt="Pooja Image">
+                            <div class='label'>
+                                    <p><i class="far fa-eye"></i> Quick View</p>
+                            </div>
+                        </div>
+                    <p class='productname'>Chant and Be Happy</p>
+                    <p class='price'>Rs150</p>
+                      </div>
+        
+        
+                      <div class='itemsTwo'>
+                        <div style='width:200px' class='twohundo'>
+                            <img style='height:300px;width:200px;'
+                                src="https://www.devotionbay.com/wp-content/uploads/2019/03/The-nectar-of-devotion.jpg"
+                                alt="200mL GangaJal Water">
+                            <div class='label'>
+                                    <p><i class="far fa-eye"></i> Quick View</p>
+                            </div>
+                        </div>
+                        <p class='productname'>The Nectar of Devotion</p>
+                    <p class='price'>Rs150</p>
+                    </div>
+        
+        
+                    <div class='itemsTwo'>
+                        <div style='width:200px' class='fivehundo'>
+                            <img style='height:300px;width:200px;'
+                                src="https://www.devotionbay.com/wp-content/uploads/2019/03/Bhagavad-gita_As_It_Is-original_1972_Macmillan-cover-e1552428857513.jpg"
+                                alt="500mL GangaJal">
+                            <div class='label'>
+                                    <p><i class="far fa-eye"></i> Quick View</p>
+                            </div>
+                        </div>
+                        <p class='productname'>Bhagwat Gita</p>
+                    <p class='price'>Rs150</p>
+                    </div>
+        
+                    <div class='itemsTwo'>
+                        <div style='width:200px' class='tenhundo'>
+                            <img style='height:300px;width:200px;'
+                                src="https://www.devotionbay.com/wp-content/uploads/2019/03/Perfection-of-Yoga.jpg"
+                                alt="1000mL GangaJal">
+                            <div class='label'>
+                                    <p><i class="far fa-eye"></i> Quick View</p>
+                            </div>
+                        </div>
+                        <p class='productname'>The Perfection Yoga</p>
+                    <p class='price'>Rs150</p>
+                    </div>
+        
+                    <div class='itemsTwo'>
+                        <div style='width:200px' class='tenhundo'>
+                            <img style='height:300px;width:200px;'
+                                src="https://www.devotionbay.com/wp-content/uploads/2019/03/A-Second-Chance-e1552419224264.jpg"
+                                alt="1000mL GangaJal">
+                            <div class='label'>
+                                    <p><i class="far fa-eye"></i> Quick View</p>
+                            </div>
+                        </div>
+                        <p class='productname'>A Second Chance</p>
+                    <p class='price'>Rs150</p>
+                    </div>
+        
+        
+                    </div>
+            <div class='rbuttonTwo'>
+                    <!-- <p stye='margin:0px;padding:0px;display:inline;'>&gt;</p> -->
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+        </div>
+
+
+            
+
+
+        </div>
+    </div>
+        <!-- FOOTER STARTS HERE -->
+        <div class='footer' style='padding-top:30px;padding-bottom:30px;'>
+            
+                    <div class='company'>                
+                        <h3>COMPANY</h3>
+                        <hr style='color:rgb(102,102,102);width:100%;margin:3px 0px 15px 0px;'>
+                        <ul>
+                            <li style='margin-bottom:10px;'><a style='text-decoration:none;'href='aboutus.html'>ABOUT US</a></li>
+                            <li style=''><a style='text-decoration:none;' href='suggestion.html'>FEEDBACK</a></li>
+                        </ul>
+                    </div>
+            
+            
+            <div class='product'>
+                <h3>PRODUCT</h3>
+                <hr style='color:rgb(102,102,102);width:100%;margin:3px 0px 15px 0px;'>
+
+                <ul>
+                    <li style='margin-bottom:10px;'><a style='text-decoration:none;'
+                            href='returnpolicy.html'>RETURN POLICY</a></li>
+                    <li style='margin-bottom:10px;'><a style='text-decoration:none;'
+                            href='shippingpolicy.html'>SHIPPING POLICY</a></li>
+                    <li><a style='text-decoration:none;' href='privacypolicy.html'>PRIVACY POLICY</a></li>
+                </ul>
+            </div>
+            <div class='learn'>
+                <h3>LEARN MORE</h3>
+                <hr style='color:rgb(102,102,102);width:100%;margin:3px 0px 15px 0px;'>
+
+                <ul>
+                    <li><a style='text-decoration:none;' href='payments.html'>PAYMENTS</a></li>
+                </ul>
+                <br>
+                <br>
+                <div class='socials'>
+                        <i onClick="location.href='https://twitter.com/DevotionBay';" class="fab fa-twitter-square"></i>
+                        <i onClick="location.href='https://www.facebook.com/DevotionBay/';"
+                            class="fab fa-facebook-square"></i>
+                        <i onClick="location.href='https://www.instagram.com/devotionbay/';"
+                            class="fab fa-instagram"></i>
+                        <i onClick="location.href='https://www.youtube.com/channel/UC9hC-oaDQ9YAbo-EHf9J_ow/featured';"
+                            class="fab fa-youtube-square"></i>
+                    </div>
+            </div> 
+            <div class='connect' style='width:320px;'>
+                <h3>CONTACT US</h3>
+                <hr style='color:#666666;width:100%;margin:3px 0px 15px 0px;'>
+
+                <div class='inside'>
+                    <!-- <div class='socials'>
+                        <i onClick="location.href='https://twitter.com/DevotionBay';" class="fab fa-twitter-square"></i>
+                        <i onClick="location.href='https://www.facebook.com/DevotionBay/';"
+                            class="fab fa-facebook-square"></i>
+                        <i onClick="location.href='https://www.instagram.com/devotionbay/';"
+                            class="fab fa-instagram"></i>
+                        <i onClick="location.href='https://www.youtube.com/channel/UC9hC-oaDQ9YAbo-EHf9J_ow/featured';"
+                            class="fab fa-youtube-square"></i>
+                    </div> -->
+                    <div class='others'>
+                            <div class='lemmeKno'>
+                                <i class="fas fa-location-arrow"></i>
+                            <p style='display:inline;font-size;0.5rem;margin:0px;margin-left:10px;padding:0px;'>Kamla Enterprises
+                                    B2/31 Dev Ghat, Prayagraj, Uttar Pradesh-211012</p>
+                            </div>
+                            <div class='lemmeKno'>
+                                    <i class="fas fa-mobile-alt"></i>
+                                <p style='display:inline;font-size;0.5rem;margin:0px;margin-left:10px;padding:0px;'>+91 8887908383</p>
+                               
+                            </div>
+                            
+                            <div class='lemmeKno'>
+                                    <i class="fas fa-envelope"></i>
+                                <p style='display:inline;font-size;0.5rem;margin:0px;margin-left:10px;padding:0px;'>care@devotionbay.com</p>
+                               
+                            </div>
+                            
+                        </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- FOOTER ENDS HERE -->
+        <script src='DevBay.js'> </script>
+</body>
+
+</html>

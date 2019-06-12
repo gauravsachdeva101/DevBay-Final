@@ -1,0 +1,16 @@
+.aboutuscontent{
+  margin:20px 110px 110px 110px;
+}
+.headingaboutus{
+  margin: 0px;
+  padding: 10px;
+  background: #FFB404;
+}
+#heading{
+  margin:20px 100px 20px 100px;
+}
+body{
+  font-family: 'Francois One', sans-serif;
+  margin: 0px;
+  width: 100%;
+}

@@ -1,0 +1,17 @@
+html,body{
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  font-family: 'Francois One', sans-serif;
+}
+.returnheading{
+  margin: 0px;
+  padding: 10px;
+  background: #FFB404;
+}
+#headreturn{
+  margin: 20px 100px 20px 100px;
+}
+.returncontent{
+  margin: 20px 110px 20px 110px;
+}

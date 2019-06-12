@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Suggestion</title>
+    <link rel="stylesheet" href="suggestions.css">
+    <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+  </head>
+  <body>
+    <div class="suggestionheading">
+      <h1 id="heading">Suggestion</h1>
+    </div>
+    <div class="suggestioncontent">
+       <form class="suggetionform" action="index.html" method="post">
+         <h3>Your suggestions help us to improve</h3>
+          <div class="details">
+         <strong>Name:</strong>
+         <input type="text" name="Name" value="" id="inputid" placeholder="Your Name here">
+          <br><br>
+         <strong>Email:</strong>
+         <input type="email" name="Name" value="" id="inputid" placeholder="Your Email here">
+         <br><br>
+         </div>
+         <div class="optionsfeedback">
+         Would you like to:<br>
+         <ul>
+         <li><input type="radio" name="feedback" value="comment">Comment</li>
+         <br>
+         <li><input type="radio" name="feedback" value="question">Ask a question</li>
+          <br>
+         <li><input type="radio" name="feedback" value="reportbug">Report Bug</li>
+         <br>
+           <li><input type="radio" name="feedback" value="other">Other</li>
+         </ul>
+         </div>
+         <div class="textareadiv">
+         <textarea name="feedback" rows="7" cols="50"></textarea>
+         <br>
+         <button type="submit" name="feedback" class="button">Submit</button>
+         </div>
+       </form>
+    </div>
+  </body>
+</html>

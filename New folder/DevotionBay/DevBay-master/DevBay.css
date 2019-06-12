@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+@import url('https://fonts.googleapis.com/css?family=Playball');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html,body{
+height:100%;
+width:100%;
+margin:0px;
+padding:0px;
+background:white;
+font-size:16px;
+}
+ 
+
+
+/* STARTING OF NAVBAR CODE! */
+/* --------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
+.main-nav{
+position:fixed;
+z-index:4;
+width:100%;
+display:flex;
+flex-flow:row wrap;
+flex-grow:0;
+flex-shrink:1;
+justify-content: center;
+align-items:center;
+background:#FFF;
+padding:0px;
+margin:0px;
+height:initial;
+}
+.upper-nav{
+top:0px;
+padding:0px;margin:0px;
+display:flex;
+flex-flow:row wrap;
+flex-shrink:1;
+align-items:center;
+justify-content:center;
+}
+:root{
+--marginns:40px;
+}
+.upper-nav>li
+{
+list-style-type:none;
+text-align: center;
+font-family: 'Francois One', sans-serif;
+letter-spacing: 2px;
+font-style: bold;
+transition-property: color;
+transition-property: border;
+transition-timing-function: ease-in-out;
+transition-duration:300ms;
+float:left;font-size:0.9rem;
+margin:10px var(--marginns) 10px var(--marginns);
+}
+.upper-nav>li:nth-child(1)
+{
+margin-left:0px;
+margin-right:80px;
+}
+.upper-nav>li:nth-child(8)
+{
+margin-right:0px;
+}
+.upper-nav>li>a
+{
+text-decoration:none;
+display:block;
+margin:0px;
+padding:0px;
+}
+.lower-nav
+{
+padding:0px;
+margin:0px;
+height:0px;
+position:absolute;
+text-align:left;
+background:white;
+transition: all 500ms;
+border-top:none;
+}
+.lower-nav>li
+{
+font-size:0px;
+list-style-type:none;
+margin: 7px 0px 7px 0px;
+height:0px;
+transition: all 500ms;
+padding:0px;
+}
+.lower-nav>li>a
+{
+font-size:0em;
+margin:0px;padding:0px;
+transform:rotateY(0deg);
+transition:font-size 150ms ease-in-out 0ms;
+transition: border-bottom 150ms ease-in-out 0ms;
+display:block;
+}
+.upper-nav>li:nth-child(2):hover
+{
+color: #00ccff;
+/* border-bottom:5px solid #0cf; */
+}
+.upper-nav>li:nth-child(3):hover
+{
+color: #00ccff;
+border-bottom:5px solid #0cf;
+}.upper-nav>li:nth-child(5):hover
+{
+color: #00ccff;
+border-bottom:5px solid #0cf;
+}.upper-nav>li:nth-child(6):hover
+{
+color: #00ccff;
+border-bottom:5px solid #0cf;
+}.upper-nav>li:nth-child(7):hover
+{
+color: #00ccff;
+border-bottom:5px solid #0cf;
+}.upper-nav>li:nth-child(8):hover
+{
+color: #00ccff;
+border-bottom:5px solid #0cf;
+}
+.upper-nav>li:nth-child(4)>a:hover ~.lower-nav>li>a
+{
+font-size:1rem;
+}
+.upper-nav>li:nth-child(4)>a:hover ~.lower-nav
+{
+border-top:3px solid #00ccff;
+transform:scale(1);
+height:100px;
+}
+.upper-nav>li:nth-child(4)>a:hover ~.lower-nav>li
+{
+transform:scale(1);
+padding:10px 2px 10px 2px;
+}
+.lower-nav:hover
+{
+border-top:3px solid #00ccff;
+transform:scale(1);
+height:94px;
+}
+.upper-nav>li:nth-child(2)>.searchBar:hover{
+opacity:1.0;
+}
+.lower-nav:hover >li
+{
+transform:scale(1);
+padding:10px 2px 10px 2px;
+}
+.lower-nav:hover >li>a
+{
+font-size:1rem;
+}
+.lower-nav>li>a:hover
+{
+border-bottom:1px solid grey;
+}
+.searchBar{
+display:flex;
+flex-flow:row nowrap;
+align-items:center;
+padding:0px;
+margin:0px;
+width:300px;
+opacity:0.6;
+transition:all 150ms;
+height:initial;
+border:1px solid grey;
+}
+/* ---------------------------
+---------------------------
+END OF NAVBAR CODE */
+.jumbodisp{
+padding:0px;
+padding-top:100px;
+/* border:1px solid red; */
+margin:0px;
+width:100%;
+transition:all 300ms;
+background-image:url("https://htoindia.com/wp-content/uploads/2017/05/19-amazing-temple-of-south-india.jpg");
+height: 450px;
+background-size:cover;
+background-position:center;
+/* background-attachment: fixed; */
+background-repeat:no-repeat;
+display:flex;
+flex-flow: row nowrap;
+align-items:center;
+justify-content: center;
+}
+.jumbodisp ~div{
+width:50px;
+height:50px;
+background:black;
+opacity:0.4;
+border-radius:100px;
+}
+.sliderMain{
+display:flex;
+flex-flow:row nowrap;
+align-items:center;
+}
+.leftSlid{
+float:left;
+margin-right:auto;
+position:absolute;
+margin-left:5px;
+left:4px;
+}
+.rightSlid{
+position:absolute;
+right:4px;
+float:right;
+margin-left:auto;
+margin-right:5px;
+}
+.rightSlid,.leftSlid{
+padding:0px;
+display:flex;
+flex-flow:row nowrap;
+align-items:center;
+justify-content:center;
+}
+.rightSlid i{
+margin:0px;
+margin-left:4px;
+font-size:2rem;
+color:white;
+}
+
+.leftSlid i{
+margin:0px;
+margin-right:4px;
+font-size:2rem;
+color:white;
+}
+.poojaganga{
+padding:0px;
+height:350px;
+margin:0px;
+border-top:5px solid #0cf;
+/* border-bottom:5px solid #0cf; */
+display:flex;
+flex-flow:column nowrap;
+align-items: center;
+justify-content:center;
+}
+.relbooks{
+padding:0px;
+height:500px;
+margin:0px;
+border-top:5px solid #0cf;
+border-bottom:5px solid #0cf;
+display:flex;
+flex-flow:column nowrap;
+align-items: center;
+justify-content:center;
+}
+.headerPG,.headerRB{
+margin:0px;
+margin-bottom:50px;
+font-family: 'Playball', cursive;
+
+}
+.sliderPG,.sliderRB{
+margin:0px;
+padding:0px;
+display:flex;
+flex-flow:row nowrap;
+justify-content: center;
+}
+.sliderPG>div{
+margin:0px;
+margin-left:10px;
+margin-right:10px;
+flex-shrink:1;
+}
+.sliderRB>div{
+flex-shrink:1;
+margin:0px;
+margin-left:40px;
+margin-right:40px;
+}
+.sliderPG>div:first-child,.sliderRB>div:first-child{
+    margin:0px;
+    margin-left:0px;
+    margin-right:10px;
+}
+.sliderPG>div:last-child,.sliderRB>div:last-child{
+    margin:0px;
+    margin-left:0px;
+    margin-right:10px;
+}
+.pooja{
+display:flex;
+flex-flow:row wrap;
+width:240px;
+}
+.twohundo{
+display:flex;
+flex-flow:row wrap;
+width:240px;
+}
+.fivehundo{
+display:flex;
+flex-flow:row wrap;
+width:240px;
+}
+.tenhundo{
+display:flex;
+flex-flow:row wrap;
+width:240px;
+}
+.label{
+width:inherit;
+height:0px;
+background:#eee;
+align-self:flex-end;
+transition:all 300ms;
+position:absolute;
+padding:0px;
+display:flex;
+text-align:center;
+flex-flow:row wrap;
+align-items:center;
+justify-content:center;
+}
+.label p{
+margin:0px;
+font-size:0px;
+font-family: 'Roboto', sans-serif;
+position:absolute;
+color:#dd0033;
+font-style:bold;
+}
+.pooja:hover .label,.twohundo:hover .label,.fivehundo:hover .label,.tenhundo:hover .label{
+height:40px;
+}
+.pooja:hover .label p,.twohundo:hover .label p,.fivehundo:hover .label p,.tenhundo:hover .label p{
+font-size:1rem;
+}
+.pooja img, .twohundo img, .fivehundo img, .tenhundo img{
+transition: all 300ms;
+transition-timing-function:ease-in-out;
+}
+.pooja:hover >img,.twohundo:hover >img, .fivehundo:hover >img, .tenhundo:hover >img{
+transform:scale(0.9);
+}
+
+
+
+
+/* FOOTER CODE STARTS HERE 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------- */
+.footer{
+height:initial;
+font-size:0.8rem;
+width:100%;
+background:#1f1f1f;
+display:flex;
+flex-flow:row wrap;
+justify-content: center;
+align-items: flex-start;
+color:white;
+}
+.footer>div{
+margin:0px 90px 0px 90px;
+padding:0px;
+}
+.footer ul{
+margin:0px;
+padding:0px;
+list-style-type: circle;
+}
+.company,.product,.learn,.connect{
+display:flex;
+flex-flow:column wrap;
+align-items:flex-start;
+justify-content: center;
+margin:0px;
+}
+.inside{
+font-size:1rem;
+width:100%;
+display:flex;
+flex-flow:row wrap;
+align-items:flex-start;
+justify-content: center;
+}
+.socials,.others{
+display:flex;
+flex-flow:column wrap;
+align-items: center;
+justify-content:flex-start;
+}
+.socials i,.others i{
+margin-bottom:12px;
+}
+.company h3:before,.product h3:before,.learn h3:before,.connect h3:before{
+transition: all 350ms;
+content:".";
+width:3px;
+color:transparent;
+background:#0cf;
+margin:0px;
+margin-right:10px;
+}
+.company ul li,.product ul li,.learn ul li,.connect ul li{
+list-style-type: circle;
+transform:translate(0px);
+transition: all 150ms;
+}
+.socials i{
+transition:all 150ms;
+transform:scale(1);
+}
+.socials i:first-child:hover{
+color:#0cf;
+transform:scale(1.2);
+}
+.socials i:nth-child(2):hover{
+color:#003cb3;
+transform:scale(1.2);
+}
+.socials i:nth-child(3):hover{
+color:#0cf;
+transform:scale(1.2);
+}
+.socials i:last-child:hover{
+color:#dd1a1a;
+transform:scale(1.2);
+}
+.others i{
+transform:rotate(0deg);
+transition:all 150ms;
+}
+.others i:first-child:hover,.others i:nth-child(2):hover,.others i:last-child:hover{
+transform:rotate(360deg);
+}
+.learn>ul>li:first-child:hover,.company>ul>li:first-child:hover,.product>ul>li:first-child:hover,.product>ul>li:nth-child(2):hover,.company>ul>li:last-child:hover,.product>ul>li:last-child:hover
+{
+transform:translate(5px);
+list-style-type:disc;
+}
+.company:hover h3:before,.product:hover h3:before,.learn:hover h3:before,.connect:hover h3:before{
+content:".";
+background:#ff0055;
+}
+/* ---------------------------------------
+---------------------------------------
+FOOTER ENDS HERE */

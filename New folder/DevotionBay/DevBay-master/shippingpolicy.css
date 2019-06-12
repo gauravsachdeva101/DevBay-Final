@@ -1,0 +1,17 @@
+html,body{
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  font-family: 'Francois One', sans-serif;
+}
+.shippingheading{
+  margin:0px;
+  padding: 10px;
+  background: #FFB404;
+}
+#headshipping{
+  margin: 20px 100px 20px 100px;
+}
+.contentshipping{
+  margin:70px 110px 50px 110px;
+}
