@@ -45,8 +45,16 @@ float:none;
 .add *{
 margin:0px;
 }
-.lmao{
+.lao{
   padding-top: 12px;
+}
+.lao:first-child:hover{
+background:black;
+color:white;
+}
+.lao:last-child:hover{
+background:black;
+color:white;
 }
 .sub{
 cursor:pointer;
